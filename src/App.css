@@ -1,38 +1,314 @@
-.App {
-  text-align: center;
+/* Global */
+
+body {
+  background-color: #ffffff!important;
+  margin: 0 auto;
+  color: #393939!important;
+  line-height: 1.6;
+  /* font: 400 15px/28px "Poppins", sans-serif!important; */
+  font-family: 400 15px/28px 'Montserrat', sans-serif !important;
+  overflow-x: hidden!important;
+} 
+
+h1, h2, h3, h4, h5{
+  font-weight: 600!important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Scrollbar  */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+::-webkit-scrollbar {
+  width: 12px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  ::-webkit-scrollbar-track {
+  border: none;
+  background-color: whitesmoke;
   }
-  to {
-    transform: rotate(360deg);
+  ::-webkit-scrollbar-thumb {
+  background: #031838;
+  height: 10px;
+  /* border-radius: 10px; */
   }
+
+/* Scrollbar  */
+
+
+    /* Page Not Found */
+
+    .pagenotfound {
+      margin: 8rem 0;
+      }
+  
+      .pagenotfound .gif {
+        color: transparent;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        text-align: center;
+        text-indent: 10000px;
+      }
+  
+      .pagenotfound .giffy {
+      width: 100%;
+      height: 100%;
+      max-width: 450px;
+      max-height: 450px;
+      display: flex;
+      overflow: hidden;
+      position: relative;
+      font-size: 1.25rem;
+      align-items: center;
+      flex-shrink: 0;
+      line-height: 1;
+      user-select: none;
+      border-radius:   60% 70% 90% 100% ;
+      border-style: double;
+      border-color: #031838;
+      
+      }
+  
+      .pagenotfound button{
+        margin-top: 3rem;
+        background-color:  #031838;
+        border-radius: 50px;
+        color: #ffffff;
+      }
+  
+      /* Page Not Found */
+
+
+       /* Global */
+
+
+  /* Navbar */
+  nav {
+    background-color: transparent !important;
+    transition: 0.5s ease!important;
+    /* height: 7rem ; */
+  }
+
+  nav .navbar-brand {
+    width: 30%!important;
+  }
+
+  nav .name {
+    color: #031838 !important;
+    font-weight: 600 !important;
+    
+  }
+ 
+  nav button.navbar-toggler {
+    background-color: none!important;
+    }
+  
+    
+  .navbar-toggler-icon {
+    background: none !important;
+  }
+
+    
+  .active1 {
+  transition: 0.55s ease!important;
+  border-bottom: #031838 solid 4px;
+
+  }
+  
+  nav .nav-item a {
+    color: #031838 !important;
+    font-size: 1rem;
+    display: block;
+    padding: .5rem .5rem;
+    margin: 0 1rem ;
+  }
+
+
+  nav .nav-item a:hover {
+  transition: 0.1s ease!important;
+  border-bottom: #5e6063 solid 4px;
+
+
+
+  }
+  
+
+  /* Navbar */
+
+    /* HomePage */
+
+  /* Showcase */
+  .showcase {
+
+   background:linear-gradient( #00000000,#00000000),url(./Components/HomePage/img/Rectangle\ 1.png) no-repeat;
+   background-size: cover;
+   width: 100vw ;
+   height: 80vh;
+   overflow-x: hidden;
+
+  }
+
+  /* Showcase */
+
+  /* About Us  */
+  .aboutus {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    padding: 0;
+    background:linear-gradient( rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93)),url(./Components/logo.svg) no-repeat;
+    background-size: contain;
+    width: 100vw ;
+    background-position: center !important;
+    /* height: 50vh; */
+    overflow-x: hidden;
+  }
+
+  .aboutus h4 {
+    color: #031838;
+  }
+
+  .aboutus h5 {
+    color: #031838;
+    font-weight: 200 !important;
+  }
+
+  /* About Us  */
+
+  /* Team  */
+  .team {
+    color: #031838 !important;
+  }
+
+  .team .team-blue {
+    background-color: #D2E4FF;
+    background-size: cover !important;
+  }
+
+  /* Team  */
+
+  /* Sector  */
+  .sector {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #BCD2F3;
+  }
+
+  .sector h5{
+    /* font-weight: 200 !important; */
+    padding-bottom: 3rem;
+  }
+  /* Sector  */
+
+  /* Mics  */
+  .mics {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .mics .card {
+    background-color: transparent !important;
+  }
+
+  .mics .card-header {
+    background-color: #fdfafa !important;
+    border-radius: 3rem 0 0 0 !important;
+  }
+
+  .mics .card-header.qq {
+    border-radius: 0 3rem 0 0 !important;
+  }
+
+
+  /* Mics  */
+
+    /* HomePage */
+
+    /* Contact Page  */
+
+    /* Contact Details  */
+    .details {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+    }
+    /* Contact Details  */
+
+
+    /* Enquiry Form  */
+    .enquiry {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+    }
+
+    .enquiry .form {
+      background-color: #031838;
+      border-radius: 10px;
+      padding: 4rem 2rem;
+    }
+    /* Enquiry Form  */
+    /* Contact Page  */
+
+
+
+/* Footer */
+.footer {
+  background-color: #031838 ;
+} 
+
+.footer h5 {
+  font-weight: 100 !important;
 }
+
+
+footer .boxicons .box-icon {
+  margin-left: 1rem;
+  padding: 0.4rem;
+  text-align: center !important;
+  background-color: #fff;
+  border-radius: 50%;
+ 
+  transition: 0.15s ease;
+}
+
+footer .boxicons .box-icon:hover {
+  background-color: #cf1414;
+}
+
+
+  
+.suscribe .form-control {
+  border: #fff !important;
+  color: #000 !important;
+}
+
+.suscribe .form-control:focus {
+  color: #fff;
+  background-color: #fff !important;
+  border-color: #fff !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(1 1 1 / 0%) !important;
+
+
+}
+
+.suscribe span {
+  background-color: transparent;
+  margin: 0 !important;
+
+}
+
+.suscribe a {
+  background-color: #fff;
+  border-left: 4px solid #031838 !important;
+
+  margin: 0 !important;
+
+}
+
+.suscribe box-icon {
+
+  padding: 0 1rem !important;
+
+}
+
+/* Property Search  */
+
+/* Footer */
+  
+  
