@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "./img/Rectangle 10.png";
 import img2 from "./img/Rectangle 11.png";
-import img3 from "./img/Rectangle 12.png";
+import img3 from "./img/Rectangle 12.jpg";
 
 const Team = () => {
   return (
@@ -13,13 +13,15 @@ const Team = () => {
         </div>
 
           <div class="row">
+           
+
             <div class="col-md-6">
               <div class="row ">
-                <div class="col-md-6 pl-0 pr-0 ">
+                <div class="col-md-6 pl-0 pr-0  ">
                   <img src={img1} width="100%" alt="team" />
                 </div>
                 <div class="col-md-6 pt-5 team-blue text-center">
-                  <h5> Victor Adetula</h5>
+                <h5> Victor Adetula</h5>
                   <p> Managing Partner</p>
                   <button class="btn"> Read on Bio</button>
                 </div>
@@ -45,7 +47,7 @@ const Team = () => {
                   <img src={img3} width="100%" alt="team" />
                 </div>
                 <div class="col-md-6 pt-5 team-blue text-center">
-                  <h5> Oluwatomi Adetula</h5>
+                  <h5> Aladejebi Adebanjo</h5>
                   <p> Senior Associate</p>
                   <button class="btn"> Read on Bio</button>
                 </div>

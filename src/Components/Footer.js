@@ -15,7 +15,7 @@ const Footer = () => {
                   </h6>
                   <div class="text-center mb-3 boxicons">
                     <a
-                      href="https://www.facebook.com/AbulesowoNG/"
+                      href="https://web.facebook.com/FireSwitchTech"
                       target="_blank"
                     >
                       <box-icon
@@ -28,7 +28,7 @@ const Footer = () => {
                     </a>
 
                     <a
-                      href="https://instagram.com/abulesowo.ng?utm_medium=copy_link"
+                      href="https://www.instagram.com/fireswitchtech/"
                       target="_blank"
                     >
                       <box-icon
@@ -41,7 +41,7 @@ const Footer = () => {
                     </a>
 
                     <a
-                      href="https://twitter.com/AbulesowoNG?s=08"
+                      href="https://twitter.com/fireswitchtech"
                       target="_blank"
                     >
                       <box-icon

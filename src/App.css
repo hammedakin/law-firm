@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5{
   }
 
   nav .navbar-brand {
-    width: 30%!important;
+    width: 20%!important;
   }
 
   nav .name {
@@ -136,11 +136,12 @@ h1, h2, h3, h4, h5{
 
   /* Showcase */
   .showcase {
-
+    margin: 0;
+    padding: 0;
    background:linear-gradient( #00000000,#00000000),url(./Components/HomePage/img/Rectangle\ 1.png) no-repeat;
    background-size: cover;
    width: 100vw ;
-   height: 80vh;
+   height: 110vh;
    overflow-x: hidden;
 
   }
@@ -179,6 +180,11 @@ h1, h2, h3, h4, h5{
   .team .team-blue {
     background-color: #D2E4FF;
     background-size: cover !important;
+  }
+
+  .team .btn {
+    border-radius: 2rem !important;
+    border: #031838 1px solid !important;
   }
 
   /* Team  */
