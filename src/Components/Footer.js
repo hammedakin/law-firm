@@ -11,7 +11,7 @@ const Footer = () => {
               <div class="col-md-6">
                 <div class="ml-auto mr-auto">
                   <h6 class="font-weight-bold white-text text-center mt-3 mb-4">
-                    CONECT WITH US
+                    CONNECT WITH US
                   </h6>
                   <div class="text-center mb-3 boxicons">
                     <a
@@ -52,6 +52,19 @@ const Footer = () => {
                         type="logo"
                       ></box-icon>
                     </a>
+
+                    <a
+                      href="https://linkedin.com/fireswitchtech"
+                      target="_blank"
+                    >
+                      <box-icon
+                        class="box-icon"
+                        size="1.5rem"
+                        color=" #031838"
+                        name="linkedin-square"
+                        type="logo"
+                      ></box-icon>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -59,7 +72,7 @@ const Footer = () => {
               <div class="col-md-6 suscribe">
                 <div class="">
                   <div class="col-md-10 ml-auto">
-                    <h5 class="mt-3 mb-4"> Suscribe </h5>
+                    <h5 class="mt-3 mb-4"> Subscribe </h5>
 
                     <div class="input-group white">
                       <input
@@ -105,11 +118,23 @@ const Footer = () => {
 
           <div class="footer-copyright white black-text text-center py-3">
             Copyright © 2021{" "}
-            <a href="!#" class="black-text ">
+            <a href="https://strongforte.net" class="blue-text ">
               {" "}
-              Strongeforte.ng{" "}
+              Strongforte.net{" "}
             </a>{" "}
             || All rights reserved
+
+            <hr class="my-1 w-50"/>
+
+            <div style={{fontSize: "smaller"}}>
+            Developed by
+            <a href="https://fireswitch.tech" class="blue-text">
+              {" "}
+              FireSwitch Technologies{" "}
+            </a>
+            </div>
+
+         
           </div>
         </footer>
       </section>

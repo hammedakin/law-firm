@@ -27,9 +27,7 @@ const ContactDetails = () => {
                     <div class="col-9">
                       <h4> Head Office </h4>
                       <h6>
-                        {" "}
-                        1 Eshilokun Compound, (Beside Asanjon Street),
-                        Sangotedo, Ajah - Lagos{" "}
+                       39 Adekanye Cresent, Oluwatuyi Quarters, Akure.
                       </h6>
                     </div>
                   </div>
@@ -49,7 +47,7 @@ const ContactDetails = () => {
                     </div>
                     <div class="col-9">
                       <h4> Call Us </h4>
-                      <h6> 07036770883 </h6>
+                      <h6> 07039949050 </h6>
                       <p> Monday - Friday : (08:00 - 06:00) </p>
                     </div>
                   </div>
@@ -69,7 +67,7 @@ const ContactDetails = () => {
                     </div>
                     <div class="col-9">
                       <h4> Email </h4>
-                      <h6> strongeforte@gmail.com</h6>
+                      <h6> info@strongeforte.net</h6>
                     </div>
                   </div>
                 </div>
